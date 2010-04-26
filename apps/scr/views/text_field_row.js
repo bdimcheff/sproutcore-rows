@@ -16,7 +16,7 @@ Scr.TextFieldRowView = SC.View.extend(
 
   createChildViews: function() {
     var searchView, childViews = [], thisContext = this;
-    
+
     searchView = this.createChildView(SC.TextFieldView.design({
       layout: { top: 2, right: 2, bottom: 2, left: 20 },
       hint: 'Search...',
